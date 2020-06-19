@@ -1,0 +1,41 @@
+---
+title: "TGpresent"
+author: "Evan"
+date: "6/18/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## ToothGrowth Graph
+
+* This is a graph of the Tooth Growth Dataset.
+* The tooth growth dataset consists of measurements of guinea pigs' teeth. 
+* The guinea pigs were given doses of either Orange Juice or Vitamin C, at varying doses.
+
+## Input
+
+You can configure how the data is displayed with buttons.
+
+* Orange Juice / Vitamin C 
+  + Displays a subset of the data with this type of supplement
+* Color Variable
+  + Can color the histogram based on the type of supplement or on the dose given
+
+## ToothGrowth Dataset
+Here is a sample of the ToothGrowth dataset that was used:
+```{r}
+ToothGrowth[1:15,]
+```
+
+## Other ToothGrowth Information
+```{r}
+summary(ToothGrowth)
+```
+
+## Close Up Visualization of Subject Matter
+![](https://petcentral.chewy.com/wp-content/uploads/guinea-pig-teeth-1.jpg)
+

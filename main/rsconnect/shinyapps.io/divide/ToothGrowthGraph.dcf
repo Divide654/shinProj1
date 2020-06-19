@@ -1,0 +1,12 @@
+name: ToothGrowthGraph
+title: ToothGrowthGraph
+username:
+account: divide
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2475683
+bundleId: 3289988
+url: https://divide.shinyapps.io/ToothGrowthGraph/
+when: 1592529407.64543
+asMultiple: FALSE
+asStatic: FALSE
